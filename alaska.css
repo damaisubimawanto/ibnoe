@@ -244,3 +244,7 @@
   color: #e5322c;
   font-weight: bold;
 }
+
+.jwplayer.jw-skin-alaska .jw-icon-settings {
+	display: none;
+}
