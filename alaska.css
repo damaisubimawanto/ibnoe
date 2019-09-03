@@ -151,7 +151,7 @@
 }
 
 .jwplayer.jw-skin-alaska .jw-controlbar {
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-button-container .jw-button-color {
@@ -185,7 +185,7 @@
 }
 
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-text {
-  color: #1E1E1E;
+  color: #FFFFFF;
 }
 
 .jwplayer.jw-skin-alaska .jw-volume-tip,
@@ -202,19 +202,19 @@
 
 /* Customize colors of timeslider */
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-rail {
-  background-color: #1E1E1E;
+  background-color: #8AFFFFFF;
 }
 
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-buffer {
-  background-color: #92DCE5;
+  background-color: #FFFFFF;
 }
 
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-progress {
-  background-color: #e5322c;
+  background-color: #f52730;
 }
 
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-knob {
-  background-color: #e5322c;
+  background-color: #f52730;
 }
 
 
