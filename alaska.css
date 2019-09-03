@@ -248,3 +248,7 @@
 .jwplayer.jw-skin-alaska .jw-icon-settings {
 	display: none;
 }
+
+.jwplayer.jw-skin-alaska .jw-icon-fullscreen {
+	display: none;
+}
