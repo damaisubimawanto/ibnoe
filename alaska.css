@@ -193,12 +193,10 @@
   padding-bottom: 0;
 }
 
-
 /* Customize colors of volume control knob */
 .jwplayer.jw-skin-alaska .jw-overlay .jw-slider-volume .jw-slider-container .jw-knob {
-  background-color: #e5322c;
+  background-color: #FFFFFF;
 }
-
 
 /* Customize colors of timeslider */
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-rail {
@@ -216,7 +214,6 @@
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-knob {
   background-color: #f52730;
 }
-
 
 /* Customize colors/opacity of the settings menu */
 .jwplayer.jw-skin-alaska .jw-settings-menu {
@@ -241,7 +238,7 @@
 
 .jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-content-item:hover,
 .jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-item-active {
-  color: #e5322c;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
