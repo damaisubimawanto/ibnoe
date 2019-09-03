@@ -166,7 +166,6 @@
   color: #92DCE5;
 }
 
-
 /* Move tooltips closer to control bar with inline timeslider, change colors, round corners, remove shadow */
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-tooltip {
   bottom: 70%;
@@ -248,4 +247,12 @@
 
 .jwplayer.jw-skin-alaska .jw-icon-fullscreen {
 	display: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-icon-rewind {
+	display: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-icon-playback {
+	color: #FFFFFF;
 }
