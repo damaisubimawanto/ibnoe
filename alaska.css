@@ -1,55 +1,60 @@
 /* Set the idle overlay to transparent white */
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-controls {
-	background: rgba(255, 255, 255, .7);
+  background: rgba(255, 255, 255, .7);
 }
 
 /* Hide titles on complete */
 .jwplayer.jw-skin-alaska.jw-state-complete .jw-title .jw-title-primary,
 .jwplayer.jw-skin-alaska.jw-state-complete .jw-title .jw-title-secondary {
-	display: none;
+  display: none;
 }
 
 /* Round, white play & restart buttons with black icons */
 .jwplayer.jw-skin-alaska .jw-display-controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container {
-	background-color: transparent;
-	border-radius: 50%;
-	width: 60px;
-	height: 60px;
+  background-color: transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon,
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon {
-	color: #FFFFFF;
-	width: 50px;
-	height: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  color: #FFFFFF;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Change play button colors on idle state, handle hover transitions */
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container {
   background-color: transparent;
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon {
-	color: #FFFFFF;
-	height: 50px;
-	width: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  color: #FFFFFF;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 /* Shrink play button on smaller breakpoints */
 .jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-3 .jw-display-controls .jw-display-icon-container,
@@ -89,7 +94,6 @@
 .jwplayer.jw-skin-alaska.jw-state-paused .jw-controls {
   background-color: transparent;
 }
-
 
 /* Customize font style and positioning for titles */
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-title {
