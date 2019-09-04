@@ -258,3 +258,6 @@
 .jwplayer.jw-skin-alaska .jw-icon-rewind {
 	display: none;
 }
+
+.jwplayer.jw-skin-alaska .jw-display-icon-container .jw-display-icon-rewind {
+	display: none;
