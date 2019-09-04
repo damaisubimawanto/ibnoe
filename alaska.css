@@ -10,15 +10,20 @@
 }
 
 /* Round, white play & restart buttons with black icons */
-.jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container,
+.jw-display-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container {
   background-color: transparent;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 60px;
+  height: 60px;
+  /*display: flex;
+	align-items: center;
+	justify-content: center;*/
+  
 }
 
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon,
@@ -26,9 +31,6 @@
   color: #FFFFFF;
   width: 30px;
   height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .jwplayer.jw-skin-alaska .jw-display-icon-display .jw-display-icon-container .jw-reset.shift {
