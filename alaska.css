@@ -1,38 +1,32 @@
 /* Set the idle overlay to transparent white */
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-controls {
-  background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .7);
 }
 
 /* Hide titles on complete */
 .jwplayer.jw-skin-alaska.jw-state-complete .jw-title .jw-title-primary,
 .jwplayer.jw-skin-alaska.jw-state-complete .jw-title .jw-title-secondary {
-  display: none;
+	display: none;
 }
 
 /* Round, white play & restart buttons with black icons */
-.jw-display-controls{
+.jwplayer.jw-skin-alaska .jw-display-controls {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container {
-  background-color: transparent;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  display: flex;
-	align-items: center;
-	justify-content: center;
+	background-color: transparent;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
 }
 
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon,
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon {
-  color: #FFFFFF;
-  width: 30px;
-  height: 30px;
-}
-
-.jwplayer.jw-skin-alaska .jw-display-icon-display .jw-display-icon-container .jw-reset.shift {
+	color: #FFFFFF;
+	width: 50px;
+	height: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -40,19 +34,20 @@
 
 /* Change play button colors on idle state, handle hover transitions */
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container {
-  display: none;
-  /*background-color: #e5322c;
+  background-color: transparent;
   height: 80px;
   width: 80px;
   -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;*/
+  transition: transform 0.35s;
 }
 
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon {
-  color: #fff;
-  height: 40px;
-  width: 40px;
-  padding: 20px;
+	color: #FFFFFF;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 
