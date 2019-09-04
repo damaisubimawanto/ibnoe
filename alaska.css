@@ -23,10 +23,9 @@
   color: #FFFFFF;
   width: 30px;
   height: 30px;
-  padding: 20px;
 }
 
-.jw-display-icon-container .jw-display-icon-display .jw-reset.shift {
+.jwplayer.jw-skin-alaska .jw-display-icon-display .jw-display-icon-container .jw-reset.shift {
 	display: flex;
 	align-items: center;
 	justify-content: center;
