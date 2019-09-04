@@ -263,6 +263,10 @@
 	display: none;
 }
 
-.jwplayer.jw-skin-alaska .jw-display-icon-container .jw-display-controls .jw-display-icon-rewind {
+.jwplayer.jw-skin-alaska .jw-display-icon-rewind {
+	display: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-display-icon-next {
 	display: none;
 }
