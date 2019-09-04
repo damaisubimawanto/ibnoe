@@ -11,7 +11,7 @@
 
 /* Round, white play & restart buttons with black icons */
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container {
-  background-color: white;
+  background-color: #e5322c;
   border-radius: 50%;
   width: 50px;
   height: 50px;
