@@ -20,10 +20,9 @@
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  /*display: flex;
+  display: flex;
 	align-items: center;
-	justify-content: center;*/
-  
+	justify-content: center;
 }
 
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon,
@@ -41,11 +40,12 @@
 
 /* Change play button colors on idle state, handle hover transitions */
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container {
-  background-color: #e5322c;
+  display: none;
+  /*background-color: #e5322c;
   height: 80px;
   width: 80px;
   -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
+  transition: transform 0.35s;*/
 }
 
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon {
