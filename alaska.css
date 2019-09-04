@@ -199,7 +199,7 @@
 
 /* Customize colors of timeslider */
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-rail {
-  background-color: #8AFFFFFF;
+  background-color: rgba(255, 255, 255, .54);
 }
 
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-buffer {
