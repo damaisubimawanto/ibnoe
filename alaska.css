@@ -71,7 +71,7 @@
 }
 
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container:hover {
-   background-color: #92DCE5;
+   background-color: #FFFFFF;
 }
 
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon:hover {
@@ -79,7 +79,7 @@
 }
 
 .jwplayer.jw-skin-alaska.jw-state-paused .jw-controls {
-  background-color: rgba(147, 221, 230, .3);
+  background-color: transparent;
 }
 
 
@@ -155,15 +155,15 @@
 }
 
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-button-container .jw-button-color {
-  color: #1E1E1E;
+  color: #FFFFFF;
 }
 
 .jwplayer.jw-skin-alaska.jw-state-paused .jw-controlbar .jw-button-container .jw-button-color {
-  color: #e5322c;
+  color: #FFFFFF;
 }
 
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-button-container .jw-button-color:hover {
-  color: #92DCE5;
+  color: #FFFFFF;
 }
 
 /* Move tooltips closer to control bar with inline timeslider, change colors, round corners, remove shadow */
@@ -251,8 +251,4 @@
 
 .jwplayer.jw-skin-alaska .jw-icon-rewind {
 	display: none;
-}
-
-.jwplayer.jw-skin-alaska .jw-button-container .jw-icon-playback {
-	color: #FFFFFF;
 }
