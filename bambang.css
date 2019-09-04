@@ -14,23 +14,28 @@
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container {
   background-color: white;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon,
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon {
   color: #1E1E1E;
-  width: 60px;
-  height: 60px;
-  padding: 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Change play button colors on idle state, handle hover transitions */
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container {
   background-color: #e5322c;
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
 }
@@ -41,7 +46,6 @@
   width: 40px;
   padding: 20px;
 }
-
 
 /* Shrink play button on smaller breakpoints */
 .jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-3 .jw-display-controls .jw-display-icon-container,
@@ -81,7 +85,6 @@
 .jwplayer.jw-skin-alaska.jw-state-paused .jw-controls {
   background-color: rgba(147, 221, 230, .3);
 }
-
 
 /* Customize font style and positioning for titles */
 .jwplayer.jw-skin-alaska.jw-state-idle .jw-title {
@@ -166,7 +169,6 @@
   color: #92DCE5;
 }
 
-
 /* Move tooltips closer to control bar with inline timeslider, change colors, round corners, remove shadow */
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-tooltip {
   bottom: 70%;
@@ -193,7 +195,6 @@
   padding-bottom: 0;
 }
 
-
 /* Customize colors of volume control knob */
 .jwplayer.jw-skin-alaska .jw-overlay .jw-slider-volume .jw-slider-container .jw-knob {
   background-color: #e5322c;
@@ -216,7 +217,6 @@
 .jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-knob {
   background-color: #e5322c;
 }
-
 
 /* Customize colors/opacity of the settings menu */
 .jwplayer.jw-skin-alaska .jw-settings-menu {
@@ -243,4 +243,16 @@
 .jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-item-active {
   color: #e5322c;
   font-weight: bold;
+}
+
+.jwplayer.jw-skin-alaska .jw-icon-settings {
+	display: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-icon-fullscreen {
+	display: none;
+}
+
+.jwplayer.jw-skin-alaska .jw-icon-rewind {
+	display: none;
 }
