@@ -12,7 +12,7 @@
 /* Round, white play & restart buttons with black icons */
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container,
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container {
-  background-color: white;
+  background-color: transparent;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -20,10 +20,16 @@
 
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon,
 .jwplayer.jw-skin-alaska .jw-display-controls .jw-display-icon-container .jw-icon {
-  color: #1E1E1E;
-  width: 60px;
-  height: 60px;
+  color: #FFFFFF;
+  width: 30px;
+  height: 30px;
   padding: 20px;
+}
+
+.jw-display-icon-container .jw-display-icon-display .jw-reset.shift {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /* Change play button colors on idle state, handle hover transitions */
