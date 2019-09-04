@@ -220,7 +220,7 @@
 }
 
 .jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-topbar {
-  background-color: #92DCE5;
+  background-color: rgba(255, 255, 255, .54);
 }
 
 .jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-topbar .jw-icon:hover {
